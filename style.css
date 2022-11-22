@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #282c34;
+  font-family: "Nunito", sans-serif;
+}
+
+.wrapper {
+  position: absolute;
+  margin-left: 10%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 0;
+}
+header .logo {
+  display: flex;
+}
+
+header .logo button {
+  border: none;
+  width: 120px;
+  height: 40px;
+  border-radius: 0.5em;
+  background: #282c34;
+  opacity: 0.8;
+  color: white;
+  font-size: 1em;
+  box-shadow: 0 1px 3px #0d0e10;
+  cursor: pointer;
+  margin-left: 10%;
+}
+header .logo button i,
+header .signup i {
+  margin-left: 10%;
+}
+header .signup {
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 0.5em;
+  background: #ff355c;
+  color: white;
+  font-weight: bolder;
+  font-size: 1em;
+  box-shadow: 0 1px 3px #0d0e10;
+  cursor: pointer;
+}
+
+#color {
+  background-color: #ff355c;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+  font-size: 2.2em;
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 80vh;
+  max-width: 90%;
+  margin: 0 auto;
+}
+main .container h1 {
+  font-size: 4.2em;
+  color: white;
+  margin-bottom: 2%;
+}
+main .container h1 span {
+  font-size: 1.4em;
+}
+
+main .container h3 {
+  margin-top: 5%;
+  color: white;
+  font-size: 1.5em;
+}
